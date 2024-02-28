@@ -22,6 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .search input{
     height: 60px;
@@ -78,4 +79,18 @@ body{
 .humidity, .wind{
     font-size: 25px;
     margin-top: -6px;
+}
+@media(max-width:1024px){
+    .Weather h1{
+        font-size: 40px;
+    }
+    .Weather h2{
+        font-size: 35px;
+    }
+    .search input{
+        width: 100px;
+    }
+    .humidity, .wind{
+        font-size: 15px;
+    }
 }
