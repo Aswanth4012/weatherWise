@@ -104,3 +104,17 @@ body{
     }
     
 }
+.Weather{
+    display: none;
+}
+.warning-text{
+    color: rgb(88, 83, 83);
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.warning{
+    text-align: start;
+    display: none;
+    height: fit-content;
+}
